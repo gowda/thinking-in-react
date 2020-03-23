@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './app.css';
 
-class ProductCategoryRow extends Component {
+export class ProductCategoryRow extends Component {
   render() {
     return (
       <tr>
@@ -11,7 +11,7 @@ class ProductCategoryRow extends Component {
   }
 }
 
-class ProductRow extends Component {
+export class ProductRow extends Component {
   render() {
     const product = this.props.product;
     const name = product.stocked
@@ -62,7 +62,7 @@ class ProductTable extends Component {
   }
 }
 
-class SearchBar extends Component {
+export class SearchBar extends Component {
   render() {
     return (
       <form>
