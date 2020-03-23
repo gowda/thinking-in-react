@@ -25,5 +25,8 @@ module.exports = {
     'max-classes-per-file': 'off',
     'react/prefer-stateless-function': 'off',
     'react/jsx-one-expression-per-line': 'off',
+    'react/prop-types': 'off',
+    'react/destructuring-assignment': 'off',
+    'prefer-destructuring': 'off'
   },
 };
