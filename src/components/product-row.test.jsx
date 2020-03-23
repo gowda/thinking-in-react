@@ -2,7 +2,7 @@ import React from 'react';
 import { render, unmountComponentAtNode } from 'react-dom';
 import { act } from 'react-dom/test-utils';
 
-import { ProductRow } from './app';
+import ProductRow from './product-row';
 
 describe('ProductRow', () => {
   let table = null;
